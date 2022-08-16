@@ -7,4 +7,10 @@ RSpec.describe "greet" do
         expect(result).to eq("Hello, !")
         end
     end
+    context "given the name Moses" do
+        it "puts Hello, Moses!" do
+        result = greet("Moses")
+        expect(result).to eq("Hello, Moses!")
+        end
+    end
 end
