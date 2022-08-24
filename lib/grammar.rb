@@ -1,0 +1,3 @@
+def grammar(text)
+  
+end
