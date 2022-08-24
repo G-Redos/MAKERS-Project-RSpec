@@ -20,4 +20,4 @@ def make_snippet(str)
         words = str.split
         return words[0,5].join(" ") + "..."
     end
-end 
+=end 
