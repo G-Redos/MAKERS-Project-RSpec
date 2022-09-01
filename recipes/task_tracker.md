@@ -29,7 +29,7 @@ Make a list of examples of what the method will take and return.
 
 #  1 task_tracker("walk the dog") => false
 # 2  task_tracker("#TODO walk the cat") => true
-# 3 task_tracker("#todo walk the cat") => false
+# 3  task_tracker("#todo walk the cat") => false
 
 
 Encode each example as a test. You can add to the above list as you go.
